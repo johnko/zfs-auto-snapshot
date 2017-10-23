@@ -1,2 +1,3 @@
 #!/bin/sh
+MAILTO=root
 exec zfs-auto-snapshot --quiet --syslog --label=daily --keep=31 //
